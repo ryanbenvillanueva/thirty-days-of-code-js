@@ -16,7 +16,7 @@ function processData(input) {
   
   let myPhonebook = new Map(phonebook);
 
-  queries.forEach(query => {
+  queries.forEach(query =>{
     if (myPhonebook.has(query)) {
       console.log(query + "=" + myPhonebook.get(query));
     } else {
